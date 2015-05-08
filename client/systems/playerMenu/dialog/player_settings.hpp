@@ -88,14 +88,14 @@ class playerSettings {
 			x = 0.06; y = 0.313;
 			w = 0.3; h = 0.05;
 		};
-
-		class distanceText : w_RscText {
+		//Default view buttons disabled for TAW
+		/*class distanceText : w_RscText {
 			idc = view_range_text;
 			text = "View range:";
 			sizeEx = 0.025;
 			x = 0.03; y = 0.40;
 			w = 0.3; h = 0.02;
-		};
+		};*/
 
 		class uptimeText : w_RscText {
 			idc = uptime_text;
@@ -159,8 +159,8 @@ class playerSettings {
 			x = 0.158; y = 0.66;
 			w = 0.225; h = 0.033 * safezoneH;
 		};
-
-		class btnDistanceNear : w_RscButton {
+		//Default view buttons disabled for Taw
+		/*class btnDistanceNear : w_RscButton {
 			idc = -1;
 			text = "Near";
 			onButtonClick = "setViewDistance 1100;";
@@ -189,6 +189,6 @@ class playerSettings {
 			onButtonClick = "setViewDistance 5000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;
-		};
+		};*/
 	};
 };
