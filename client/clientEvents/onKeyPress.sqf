@@ -63,7 +63,6 @@ if (!_handled && (inputAction "LockTarget" > 0 || inputAction "LockTargets" > 0)
 	if (_cweapon == "launch_Titan_short_F" || {
 		_cweapon == "launch_I_Titan_short_F" || {
 		_cweapon == "launch_O_Titan_short_F"}}) then {
-		player groupChat format["Titan AT locking Disabled, Use some skill"];
 		player action ["WeaponOnBack", player];
 		_handled = true;
 	};
