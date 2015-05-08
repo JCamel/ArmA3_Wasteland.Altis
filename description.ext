@@ -65,6 +65,7 @@ class RscTitles
 
 class CfgFunctions
 {
+	#include "addons\taw_vd\CfgFunctions.hpp"
 	class A3W
 	{
 		#include "client\CfgFunctions.hpp"
