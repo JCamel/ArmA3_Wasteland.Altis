@@ -71,6 +71,9 @@ for "_i" from 1 to _nbUnits do
 
 			if (_unit == leader _group) then
 			{
+				_unit addMagazine "20Rnd_762x51_Mag";
+				_unit addMagazine "20Rnd_762x51_Mag";
+				_unit addMagazine "20Rnd_762x51_Mag";
 				_unit addWeapon "srifle_EBR_ACO_F";
 				_unit setRank "SERGEANT";
 			}
