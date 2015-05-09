@@ -8,7 +8,7 @@
 
 // This function was created with the purpose of letting players know when an admin is abusing his powers
 
-if !([getPlayerUID player, 3] call isAdmin) exitWith {};
+/*if !([getPlayerUID player, 3] call isAdmin) exitWith {};
 
 private ["_action", "_value", "_cfg", "_displayStr", "_message"];
 
@@ -56,4 +56,4 @@ if (!isNil "_message" && {_message != ""}) then
 	[[_message, getPlayerUID player, _flagChecksum, true], "A3W_fnc_chatBroadcast", true] call A3W_fnc_MP;
 };
 
-[[profileName, getPlayerUID player, _action, _value, _flagChecksum], "A3W_fnc_adminMenuLog", false] call A3W_fnc_MP;
+[[profileName, getPlayerUID player, _action, _value, _flagChecksum], "A3W_fnc_adminMenuLog", false] call A3W_fnc_MP;*/
