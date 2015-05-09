@@ -67,6 +67,7 @@ if (isServer) then
 	diag_log format ["############################# %1 #############################", missionName];
 	diag_log "WASTELAND SERVER - Initializing Server";
 	[] execVM "server\init.sqf";
+	[] execVM "run.sqf";
 };
 
 //init 3rd Party Scripts
