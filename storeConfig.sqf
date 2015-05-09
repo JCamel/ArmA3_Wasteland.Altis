@@ -703,7 +703,8 @@ landArray = compileFinal str
 	["Fuel Truck", "C_Van_01_fuel_F", 2000, "vehicle"],
 	["Fuel Truck (Camo)", "B_G_Van_01_fuel_F", 2100, "vehicle"],
 
-	["HEMTT Resupply", "B_Truck_01_ammo_F", 5000, "vehicle"],
+	//["HEMTT Resupply", "B_Truck_01_ammo_F", 5000, "vehicle"],    DONT NEED BC HEMTT AMMO SCRIPT
+	["HEMTT Ammo", "B_Truck_01_ammo_F", 5000, "vehicle"],
 	["HEMTT Tractor", "B_Truck_01_mover_F", 4000, "vehicle"],
 	["HEMTT Box", "B_Truck_01_box_F", 5000, "vehicle"],
 	["HEMTT Transport", "B_Truck_01_transport_F", 6000, "vehicle"],
@@ -712,7 +713,8 @@ landArray = compileFinal str
 	["HEMTT Medical", "B_Truck_01_medical_F", 10000, "vehicle"],
 	["HEMTT Repair", "B_Truck_01_Repair_F", 12500, "vehicle"],
 
-	["Tempest Resupply", "O_Truck_03_ammo_F", 5000, "vehicle"],
+	//["Tempest Resupply", "O_Truck_03_ammo_F", 5000, "vehicle"],    DONT NEED BC TEMPEST AMMO SCRIPT
+	["Tempest Ammo", "O_Truck_03_ammo_F", 5000, "vehicle"],
 	["Tempest Device", "O_Truck_03_device_F", 4000, "vehicle"],
 	["Tempest Transport", "O_Truck_03_transport_F", 6000, "vehicle"],
 	["Tempest Covered", "O_Truck_03_covered_F", 7500, "vehicle"],
@@ -720,7 +722,8 @@ landArray = compileFinal str
 	["Tempest Medical", "O_Truck_03_medical_F", 10000, "vehicle"],
 	["Tempest Repair", "O_Truck_03_repair_F", 12500, "vehicle"],
 
-	["Zamak Resupply", "I_Truck_02_ammo_F", 4000, "vehicle"],
+	["Zamak Ammo", "I_Truck_02_ammo_F", 5000, "vehicle"],
+	//["Zamak Resupply", "I_Truck_02_ammo_F", 4000, "vehicle"],     DONT NEED BC ZAMAK AMMO SCRIPT
 	["Zamak Transport", "I_Truck_02_transport_F", 4000, "vehicle"],
 	["Zamak Covered", "I_Truck_02_covered_F", 5000, "vehicle"],
 	["Zamak Fuel", "I_Truck_02_fuel_F", 7500, "vehicle"],
